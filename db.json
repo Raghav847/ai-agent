@@ -1,3 +1,78 @@
 {
-  "messages": []
+  "messages": [
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "id": "fa6f7f6f-9522-4949-8308-2138c1eca4ae",
+      "createdAt": "2025-09-15T22:04:58.647Z"
+    },
+    {
+      "role": "assistant",
+      "content": "I'm sorry, but I don't have access to personal information about you unless you share it with me. How can I assist you today?",
+      "id": "bf835854-216b-4cc4-b052-9305762036c9",
+      "createdAt": "2025-09-15T22:05:00.268Z"
+    },
+    {
+      "role": "user",
+      "content": "my name is raghav",
+      "id": "bf77079e-ab7e-47a7-9ee3-39a165158d6e",
+      "createdAt": "2025-09-15T22:05:45.357Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Nice to meet you, Raghav! How can I assist you today?",
+      "id": "f235d0a1-8263-41d1-860b-b8d6e5973001",
+      "createdAt": "2025-09-15T22:05:46.396Z"
+    },
+    {
+      "role": "user",
+      "content": "what is my name?",
+      "id": "ec27ab86-b9d1-411f-90ca-cd3a1b1a3671",
+      "createdAt": "2025-09-15T22:05:51.070Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Your name is Raghav. How can I help you today?",
+      "id": "30ceed8d-0ad1-42e4-a658-ef38e8f90f35",
+      "createdAt": "2025-09-15T22:05:52.692Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "52eecdfa-9afd-473c-93c1-b18517e7d5c3",
+      "createdAt": "2025-09-16T23:41:11.338Z"
+    },
+    {
+      "role": "assistant",
+      "content": "Could you please provide me with your location or the city for which you would like to know the weather?",
+      "refusal": null,
+      "annotations": [],
+      "id": "4a1403d3-99d3-4e7c-8ad9-30622c41ba8c",
+      "createdAt": "2025-09-16T23:41:12.705Z"
+    },
+    {
+      "role": "user",
+      "content": "what is the weather?",
+      "id": "81495d6b-f42a-4569-993b-d2b6fe01e5ee",
+      "createdAt": "2025-09-16T23:50:11.927Z"
+    },
+    {
+      "role": "assistant",
+      "content": null,
+      "tool_calls": [
+        {
+          "id": "call_LymtEp9aGg3YCSl5IHH8a6sQ",
+          "type": "function",
+          "function": {
+            "name": "get_stuff",
+            "arguments": "{\"reasoning\":\"To provide the user with the current weather information.\"}"
+          }
+        }
+      ],
+      "refusal": null,
+      "annotations": [],
+      "id": "2a15eaa0-8482-4f9e-be96-b74bf9694c51",
+      "createdAt": "2025-09-16T23:50:13.911Z"
+    }
+  ]
 }
