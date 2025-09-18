@@ -1,35 +1,5 @@
 {
   "messages": [
-    {
-      "role": "user",
-      "content": "how is the weather?",
-      "id": "6364dd7b-93b2-4f64-8f9e-2d96d0aab49b",
-      "createdAt": "2025-09-18T03:02:34.846Z"
-    },
-    {
-      "role": "assistant",
-      "content": null,
-      "tool_calls": [
-        {
-          "id": "call_SlJisuBVeNe9hta7kJYSWVuu",
-          "type": "function",
-          "function": {
-            "name": "get_weather",
-            "arguments": "{\"reasoning\":\"I need to check the current weather conditions.\"}"
-          }
-        }
-      ],
-      "refusal": null,
-      "annotations": [],
-      "id": "41c5abe1-6892-4445-89ca-8d92fabdf403",
-      "createdAt": "2025-09-18T03:02:36.237Z"
-    },
-    {
-      "role": "tool",
-      "content": "hot, 100 degrees",
-      "tool_call_id": "call_SlJisuBVeNe9hta7kJYSWVuu",
-      "id": "cf7f6557-73b3-4a9b-861d-29d22e90ff41",
-      "createdAt": "2025-09-18T03:02:36.238Z"
-    }
+    
   ]
 }
